@@ -20,4 +20,4 @@ function  Fibonacci()
     return totalNumber;
 }
 
-console.log(Fibonacci());
+console.log(Fiboncacci());

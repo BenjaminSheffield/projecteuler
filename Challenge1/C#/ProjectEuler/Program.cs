@@ -15,11 +15,7 @@ namespace ProjectEuler
             int totalNumber = 0;
             for (int i = 0; i < total; i++)
             {
-                if (i % firstNumber == 0)
-                {
-                    totalNumber += i;
-                }
-                if (i % secondNumber == 0 && i % firstNumber !=0)
+                if (i % firstNumber == 0 || i % secondNumber == 0)
                 {
                     totalNumber += i;
                 }

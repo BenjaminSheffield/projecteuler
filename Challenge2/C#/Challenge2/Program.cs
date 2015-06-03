@@ -15,15 +15,12 @@ namespace Challenge2
             long firstNumber = 0;
             long secondNumber = 1;
             long totalNumber = 0;
-            for (int i = 0; i < 100; i++)
+            long result = firstNumber + secondNumber;
+            while (result < 4000000)
             {
-                long result = firstNumber + secondNumber;
                 firstNumber = secondNumber;
                 secondNumber = result;
-                if (result > 4000000)
-                {
-                    break;
-                }
+                result = firstNumber + secondNumber;
                 if (result % 2 == 0)
                 {
                     totalNumber += result;

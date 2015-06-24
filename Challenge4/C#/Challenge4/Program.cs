@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 
 namespace Challenge4
 {
@@ -9,7 +10,6 @@ namespace Challenge4
         static void Main(string[] args)
         {
             Console.WriteLine(Palindromic());
-            Console.Read();
         }
 
         static int Palindromic()

@@ -9,6 +9,7 @@ namespace Challenge4
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine(Palindromic());
         }
 
